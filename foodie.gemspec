@@ -29,10 +29,14 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
+  spec.add_development_dependency 'aruba'
   spec.add_development_dependency 'bundler-geminabox'
+  spec.add_development_dependency 'cucumber'
   spec.add_development_dependency 'rspec', '~> 3.2'
   spec.add_development_dependency 'rubocop'
   spec.add_development_dependency 'rubocop-rspec'
 
   spec.add_dependency 'activesupport'
+  spec.add_dependency 'thor'
+
 end

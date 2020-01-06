@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+# -*- Mode: Ruby; tab-width: 2; indent-tabs-mode: nil -*-
+
+require 'foodie/cli'
+Foodie::CLI.start
