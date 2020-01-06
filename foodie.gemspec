@@ -14,7 +14,12 @@ Gem::Specification.new do |spec|
   spec.license       = 'MIT'
   spec.required_ruby_version = Gem::Requirement.new('>= 2.3.0')
 
-  spec.metadata['allowed_push_host'] = 'http://roc.metaorg.com:9292'
+  # NOTE: gib.rubygems.net is likey not a valid address
+  #       I didn't want to expose my real private gem server in this public
+  #       repsoitory so I masked it using /etc/hosts on my dev box
+  #       in this fashion I can share this example and also test/verify my
+  #       private geminabox container/server
+  spec.metadata['allowed_push_host'] = 'http://gib.rubygems.net:9292'
 
   spec.metadata['homepage_uri'] = spec.homepage
   spec.metadata['source_code_uri'] = spec.homepage
@@ -38,5 +43,4 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'activesupport'
   spec.add_dependency 'thor'
-
 end

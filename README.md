@@ -1,8 +1,9 @@
 # Foodie
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/foodie`. To experiment with that code, run `bin/console` for an interactive prompt.
+This gem exists as a good example of creating a gem that supports spec and cucumber tests.
+It was created using the steps at: https://bundler.io/v1.12/guides/creating_gem.html
 
-TODO: Delete this and the text above, and describe your gem
+
 
 ## Installation
 
